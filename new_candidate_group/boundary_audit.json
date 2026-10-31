@@ -1,0 +1,37 @@
+{
+  "audits": [
+    {
+      "dataset": "twitter_full",
+      "rows": 13568,
+      "image_id_groups": 377,
+      "producer_permutation_reproduced_exactly": true,
+      "intended_fold_sizes": [
+        2714,
+        2714,
+        2714,
+        2713,
+        2713
+      ],
+      "image_id_groups_crossing_effective_folds": 6,
+      "rows_in_crossing_image_groups": 1995,
+      "rows_changing_fold_between_rules": 9
+    },
+    {
+      "dataset": "twitter_deduplicated",
+      "rows": 10203,
+      "image_id_groups": 368,
+      "producer_permutation_reproduced_exactly": true,
+      "intended_fold_sizes": [
+        2041,
+        2041,
+        2041,
+        2040,
+        2040
+      ],
+      "image_id_groups_crossing_effective_folds": 9,
+      "rows_in_crossing_image_groups": 1385,
+      "rows_changing_fold_between_rules": 9
+    }
+  ],
+  "scope": "Replay of saved permutations with recorded consumer; missing historical runtime source hashes and prediction indices."
+}

@@ -1,0 +1,34 @@
+{
+  "all_predictions_verified": true,
+  "results": {
+    "context": [
+      {
+        "seed": 30,
+        "fold_macro_f1": [
+          0.9145658046382805,
+          0.6488691452042237,
+          0.9292790776021385,
+          0.9328673392873131,
+          0.9761194267009883
+        ],
+        "unweighted_fold_mean": 0.8803401586865889,
+        "pooled_oof_macro_f1": 0.8880606993551967
+      }
+    ],
+    "context_ffn": [
+      {
+        "seed": 30,
+        "fold_macro_f1": [
+          0.9366437153588354,
+          0.7605189772015792,
+          0.8513588463671659,
+          0.9286654511859113,
+          0.9184239522778221
+        ],
+        "unweighted_fold_mean": 0.8791221884782627,
+        "pooled_oof_macro_f1": 0.8850314927423715
+      }
+    ]
+  },
+  "interpretation": "Post-audit exploratory candidate-group sensitivity; single-seed results have no across-seed uncertainty. New partitions prevent a paired causal comparison to old scores."
+}

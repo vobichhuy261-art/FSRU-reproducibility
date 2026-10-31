@@ -1,0 +1,67 @@
+{
+  "manifest_sha256": "90960434bfa024dbb7fc978af74681a5cf3d4451cf8bb6833e102a81224851ba",
+  "code_sha256": "8b3aa4cb7b742e2b8ac5f297ad11cf2ef985395cb2ef3ce94bf95420e2557b5c",
+  "rows": 10203,
+  "groups": 355,
+  "joined_candidate_edges": 14,
+  "folds": [
+    {
+      "fold": 0,
+      "train": 7643,
+      "valid": 186,
+      "test": 2374,
+      "positive_counts": [
+        4311,
+        128,
+        1751
+      ]
+    },
+    {
+      "fold": 1,
+      "train": 7138,
+      "valid": 1272,
+      "test": 1793,
+      "positive_counts": [
+        4489,
+        841,
+        860
+      ]
+    },
+    {
+      "fold": 2,
+      "train": 7650,
+      "valid": 409,
+      "test": 2144,
+      "positive_counts": [
+        5021,
+        201,
+        968
+      ]
+    },
+    {
+      "fold": 3,
+      "train": 7163,
+      "valid": 1295,
+      "test": 1745,
+      "positive_counts": [
+        3953,
+        1144,
+        1093
+      ]
+    },
+    {
+      "fold": 4,
+      "train": 7758,
+      "valid": 298,
+      "test": 2147,
+      "positive_counts": [
+        4599,
+        73,
+        1518
+      ]
+    }
+  ],
+  "cross_partition_group_overlap": 0,
+  "row_identity_and_feature_order_preserved": true,
+  "interpretation": "Exploratory sensitivity: union original groups, text, image keys, exact bytes and dual-hash <=6 candidate edges; seed30 five outer folds and seed31+fold ten-way inner first split. Not independent confirmation or verified event isolation."
+}

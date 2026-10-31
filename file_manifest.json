@@ -16,8 +16,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3218,
-    "sha256": "0814ea6f3da1e38c737f04a9a82d93f33caca95d457c4db7c91703b6295e6fb9"
+    "bytes": 3571,
+    "sha256": "e46f8d936b7984e88ebafeebecf49c2c113b8d3ea33993ae177971260e70729d"
   },
   {
     "path": "REPRODUCTION_SCOPE.md",
@@ -428,6 +428,51 @@
     "path": "figures/requirements.txt",
     "bytes": 42,
     "sha256": "f278e6e3dc22d450f8bdcfd9903b29925f3ae7851816344609f9056e8509506f"
+  },
+  {
+    "path": "new_candidate_group/README.md",
+    "bytes": 2654,
+    "sha256": "7dc85b68bec78a9f078f0cb7e202b9ca3bcc4cb70e536722319f7e5d44cc2f1e"
+  },
+  {
+    "path": "new_candidate_group/boundary_audit.json",
+    "bytes": 1004,
+    "sha256": "9933f5329b82d7aa3ea9dde36430d8f9a43084e89b5daefae5e3f38222b1af2e"
+  },
+  {
+    "path": "new_candidate_group/fig1_partition_boundary.pdf",
+    "bytes": 26986,
+    "sha256": "ad45f8b6dc452097657afceedcd228c60eaa089e05da6b75ad5ac36e66316d05"
+  },
+  {
+    "path": "new_candidate_group/fig4_twitter_candidate_groups.pdf",
+    "bytes": 37400,
+    "sha256": "345e4aafa8612970e5d2d13333157f3679eb262ba937a868a2bc7f335deb25e5"
+  },
+  {
+    "path": "new_candidate_group/partition_report.json",
+    "bytes": 1506,
+    "sha256": "f870a0045bd4281e47285e57bafc6605a06bb9609f465119d485cef4f21b37e5"
+  },
+  {
+    "path": "new_candidate_group/perceptual_screen_summary.json",
+    "bytes": 4911,
+    "sha256": "10b813316c5938ca35275f00ef9d304b4768ff109656b1873b2b1f17e34ad40d"
+  },
+  {
+    "path": "new_candidate_group/twitter_seed30_predictions.csv.gz",
+    "bytes": 134894,
+    "sha256": "e3a6bae358cd8b09a3ab6b8afc9895cd02767ac22b41484158cdb9248fa61582"
+  },
+  {
+    "path": "new_candidate_group/verified_metrics.json",
+    "bytes": 987,
+    "sha256": "5b840d8618778fe52cc17cecb71e62436beb25eb18d430e18a8217df40dae625"
+  },
+  {
+    "path": "new_candidate_group/verify_predictions.py",
+    "bytes": 1788,
+    "sha256": "03a5fe51dd82d9181a76e0152fad5823f62e80cd6222e577c7f4129e02bb894a"
   },
   {
     "path": "reproduce_group_bootstrap.py",

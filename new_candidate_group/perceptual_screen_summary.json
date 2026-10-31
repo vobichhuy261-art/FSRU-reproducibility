@@ -1,0 +1,112 @@
+[
+  {
+    "dataset_role": "twitter_explicit",
+    "manifest_sha256": "2c38d4bdb05a879224c42c65148411c168d310e43e6ea4209d7c2efbf7e9c382",
+    "rows": 10203,
+    "image_keys": 368,
+    "resolved_image_keys": 368,
+    "decoded_byte_distinct_images": 368,
+    "unresolved_or_decode_errors": 0,
+    "same_byte_images_crossing_folds": 0,
+    "unordered_byte_distinct_pairs_examined": 67528,
+    "thresholds": {
+      "0": {
+        "ac63_pairs": 2,
+        "ac63_cross_fold_pairs": 1,
+        "dual_hash_pairs": 1,
+        "dual_hash_cross_fold_pairs": 1,
+        "rows_in_cross_fold_dual_hash_candidates": 609
+      },
+      "2": {
+        "ac63_pairs": 9,
+        "ac63_cross_fold_pairs": 8,
+        "dual_hash_pairs": 7,
+        "dual_hash_cross_fold_pairs": 7,
+        "rows_in_cross_fold_dual_hash_candidates": 2037
+      },
+      "4": {
+        "ac63_pairs": 12,
+        "ac63_cross_fold_pairs": 11,
+        "dual_hash_pairs": 9,
+        "dual_hash_cross_fold_pairs": 9,
+        "rows_in_cross_fold_dual_hash_candidates": 2133
+      },
+      "6": {
+        "ac63_pairs": 15,
+        "ac63_cross_fold_pairs": 14,
+        "dual_hash_pairs": 14,
+        "dual_hash_cross_fold_pairs": 13,
+        "rows_in_cross_fold_dual_hash_candidates": 2721
+      },
+      "8": {
+        "ac63_pairs": 15,
+        "ac63_cross_fold_pairs": 14,
+        "dual_hash_pairs": 15,
+        "dual_hash_cross_fold_pairs": 14,
+        "rows_in_cross_fold_dual_hash_candidates": 2776
+      }
+    },
+    "primary_screen": "AC63 <= 6 AND dHash64 <= 6; sensitivity thresholds 0,2,4,6,8 are candidate counts only",
+    "hash_definition": "EXIF-transposed grayscale; LANCZOS resize. AC63 uses 32x32 orthonormal DCT, first 8x8 coefficients minus DC, thresholded at their median (63 bits). dHash64 compares horizontal neighbors after 9x8 resize.",
+    "exclusions": "Exact-byte variants are collapsed to one node; all rows remain attached. Only first frame of animated images is screened. Missing/ambiguous/decode errors are explicit and prevent a completeness claim.",
+    "scope": "Explicit crosslayer CV manifest, not the historical fixed-slice Twitter runs in Table 1",
+    "verdict": "CANDIDATE SCREEN ONLY; manual review required; no event/semantic independence or score correction established",
+    "coverage_complete": true,
+    "code_sha256": "2c4404f7deb517a60ad1148b326ef088beb837f8578778bcc3a949e1fb893883"
+  },
+  {
+    "dataset_role": "weibo_explicit",
+    "manifest_sha256": "84f5cf61f294c35b453d724082f29aa694eb2f78d14ce1374e635c07e7a958ff",
+    "rows": 7723,
+    "image_keys": 7721,
+    "resolved_image_keys": 7721,
+    "decoded_byte_distinct_images": 7718,
+    "unresolved_or_decode_errors": 0,
+    "same_byte_images_crossing_folds": 0,
+    "unordered_byte_distinct_pairs_examined": 29779903,
+    "thresholds": {
+      "0": {
+        "ac63_pairs": 133,
+        "ac63_cross_fold_pairs": 107,
+        "dual_hash_pairs": 70,
+        "dual_hash_cross_fold_pairs": 59,
+        "rows_in_cross_fold_dual_hash_candidates": 73
+      },
+      "2": {
+        "ac63_pairs": 286,
+        "ac63_cross_fold_pairs": 223,
+        "dual_hash_pairs": 220,
+        "dual_hash_cross_fold_pairs": 170,
+        "rows_in_cross_fold_dual_hash_candidates": 231
+      },
+      "4": {
+        "ac63_pairs": 384,
+        "ac63_cross_fold_pairs": 293,
+        "dual_hash_pairs": 339,
+        "dual_hash_cross_fold_pairs": 260,
+        "rows_in_cross_fold_dual_hash_candidates": 327
+      },
+      "6": {
+        "ac63_pairs": 437,
+        "ac63_cross_fold_pairs": 334,
+        "dual_hash_pairs": 398,
+        "dual_hash_cross_fold_pairs": 303,
+        "rows_in_cross_fold_dual_hash_candidates": 380
+      },
+      "8": {
+        "ac63_pairs": 511,
+        "ac63_cross_fold_pairs": 396,
+        "dual_hash_pairs": 456,
+        "dual_hash_cross_fold_pairs": 351,
+        "rows_in_cross_fold_dual_hash_candidates": 425
+      }
+    },
+    "primary_screen": "AC63 <= 6 AND dHash64 <= 6; sensitivity thresholds 0,2,4,6,8 are candidate counts only",
+    "hash_definition": "EXIF-transposed grayscale; LANCZOS resize. AC63 uses 32x32 orthonormal DCT, first 8x8 coefficients minus DC, thresholded at their median (63 bits). dHash64 compares horizontal neighbors after 9x8 resize.",
+    "exclusions": "Exact-byte variants are collapsed to one node; all rows remain attached. Only first frame of animated images is screened. Missing/ambiguous/decode errors are explicit and prevent a completeness claim.",
+    "scope": "Explicit crosslayer CV manifest, not the historical fixed-slice Twitter runs in Table 1",
+    "verdict": "CANDIDATE SCREEN ONLY; manual review required; no event/semantic independence or score correction established",
+    "coverage_complete": true,
+    "code_sha256": "2c4404f7deb517a60ad1148b326ef088beb837f8578778bcc3a949e1fb893883"
+  }
+]
