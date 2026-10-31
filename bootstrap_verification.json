@@ -1,0 +1,29 @@
+{
+  "n_samples": 7723,
+  "n_connected_groups": 7472,
+  "seed": 20261029,
+  "replicates": 2000,
+  "resampling_unit": "connected group; paired across models and seeds",
+  "interpretation": "Exploratory: outer folds were inspected during development",
+  "comparisons": {
+    "weibo_full": {
+      "baseline": "v2",
+      "candidate": "context",
+      "mean_paired_difference": 0.09127848752887338,
+      "ci95_low": 0.08427619124917378,
+      "ci95_high": 0.09821678837003656,
+      "valid_replicates": 2000,
+      "degenerate_replicates": 0
+    },
+    "weibo_spectral_ablation": {
+      "baseline": "context_ffn",
+      "candidate": "context",
+      "mean_paired_difference": 0.003019695220678258,
+      "ci95_low": -0.00011947786061086425,
+      "ci95_high": 0.006299261502764835,
+      "valid_replicates": 2000,
+      "degenerate_replicates": 0
+    }
+  },
+  "figure3_numeric_match": true
+}

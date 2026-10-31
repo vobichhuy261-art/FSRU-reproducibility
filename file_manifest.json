@@ -1,0 +1,492 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 56,
+    "sha256": "eeea36e4f7f63eaf37bb1f2a6821eb5634972e1a24f3b8fb72c575984b1e326d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2996,
+    "sha256": "3ad9651cd1486649374a8801f869f43139d9b720c6e4b4766115b654a4f1fc16"
+  },
+  {
+    "path": "REPRODUCTION_SCOPE.md",
+    "bytes": 3267,
+    "sha256": "512f5033aefa2b4f97b9c78f8851e6b3e3eaa6a6fb73ec751ef8631011de1639"
+  },
+  {
+    "path": "bootstrap_verification.json",
+    "bytes": 919,
+    "sha256": "062eca641335b951cf38a3c0e007f4b777733158235526ee1eed6cf5ef8bd0f5"
+  },
+  {
+    "path": "derived_results/README.md",
+    "bytes": 1276,
+    "sha256": "3d8fd32e61f0e8ef3abebe39c7aed0f6166516b2a9dcd9377b39c78b86d62ed3"
+  },
+  {
+    "path": "derived_results/prediction_integrity.json",
+    "bytes": 14715,
+    "sha256": "20af5e1bd8ff2b3d2e6db374a4f8f029aa204f081bf7127ac970a27538a6ca0d"
+  },
+  {
+    "path": "derived_results/weibo_anonymous_folds.csv",
+    "bytes": 113645,
+    "sha256": "8fe359dd48762547a94d28d0b5ce55dda2b81cb544b4ae1ddcb27ed577c08f80"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold0_seed30.csv",
+    "bytes": 75507,
+    "sha256": "9163f69be235529324633f3830be1730d27b02d0b53437b92e8f9ae0bcb6e918"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold0_seed31.csv",
+    "bytes": 73515,
+    "sha256": "95533402ba1e75d59aff0f5763148d7d0b898ef510736dafd260b78b262dafb3"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold0_seed32.csv",
+    "bytes": 75582,
+    "sha256": "dff2e90afd4449747e42777b686aadbea77e1073dc862019193d53197b697806"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold1_seed30.csv",
+    "bytes": 75117,
+    "sha256": "7d0292cb95a14efb438e0193622a63e048f6f5e04624f5cec3236abff7f51078"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold1_seed31.csv",
+    "bytes": 75816,
+    "sha256": "56bef6a065b96b874d18ef2deb0b3a4411229648a2dfd855d9184cd1952906db"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold1_seed32.csv",
+    "bytes": 76542,
+    "sha256": "9e262d1435a8d14882ce5bc70a58322dae3baf18c4169b308de980c51aed38d8"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold2_seed30.csv",
+    "bytes": 70178,
+    "sha256": "bdb9afc1eba9e603da41d51bb18d12b80b451e6276113e42931c2b1f6118fffa"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold2_seed31.csv",
+    "bytes": 73870,
+    "sha256": "20e197cbb6741a38bdc1c5b39dfd4ff6b92e6d7285f00cb472398847e7458f48"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold2_seed32.csv",
+    "bytes": 75766,
+    "sha256": "b229675021196d8bfc2524d1c70469695187af0533774e73207a8c58ef5cfda6"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold3_seed30.csv",
+    "bytes": 75404,
+    "sha256": "e038f83350dd99635226d7bf831e908b5de7cbbffd0a0f4f6d899d228607af85"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold3_seed31.csv",
+    "bytes": 75321,
+    "sha256": "965304812a3bf4e4a0dcf7b40a4bf85ce89607b8f2f90283844031edf8f623fc"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold3_seed32.csv",
+    "bytes": 76163,
+    "sha256": "4f35bf1cc59a2e0d3bb2a6c55e0c032d02015a731ad2b4819e946f9c0179539b"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold4_seed30.csv",
+    "bytes": 74030,
+    "sha256": "0d95f432d57c3d9cfeb00650015bc8d8cf75ea67ea6047c34e86e96b99f23547"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold4_seed31.csv",
+    "bytes": 74558,
+    "sha256": "96788c400bd61fb6f440b0e6f53da97dae701f80a4a25548cfd8226e6282affd"
+  },
+  {
+    "path": "derived_results/weibo_full/context_fold4_seed32.csv",
+    "bytes": 74800,
+    "sha256": "3d566bf27b8387bdab28ad557671aadcf703023f6494591f914a77a21ba0969f"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold0_seed30.csv",
+    "bytes": 74313,
+    "sha256": "20046482f7b962c85a22d5e26816d771699aa95a4226d72bf46af505ba4029be"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold0_seed31.csv",
+    "bytes": 72897,
+    "sha256": "0b83e8aabb1cf3fd11b61512144f6423655ed75bc97a52a1b419173975eec25b"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold0_seed32.csv",
+    "bytes": 75315,
+    "sha256": "d143cf68e3a50948df37b14a51f6893835f77a85d9b346872300905f61ad596d"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold1_seed30.csv",
+    "bytes": 73742,
+    "sha256": "95b96f7e51fdeba85ff1897dc1f40ec15db7512897f39d5b1c0172c765f0d816"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold1_seed31.csv",
+    "bytes": 73507,
+    "sha256": "bb523ea0e055402f70adc4b678fa317576b372543361e71c76a31810bf764326"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold1_seed32.csv",
+    "bytes": 73855,
+    "sha256": "34d24c8d7c0cc4cf9e583119a2f204d0fb9323edc39eb74578c6a53e4919ecb6"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold2_seed30.csv",
+    "bytes": 72362,
+    "sha256": "536c2f2a0cd41abdbd0f0636fb6c4afe447b4d8c295a66c61ddb404fdcd97cc4"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold2_seed31.csv",
+    "bytes": 64934,
+    "sha256": "9d7c2cb90549c2e80a986f26e3fcc14e50c0ca46d5771a7c04d2936af56efcb8"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold2_seed32.csv",
+    "bytes": 73297,
+    "sha256": "b79e1d6f628e5ce945a6f4f7e7d97c8e83e1de412aaf8c0f99a5f2fb5c4f3e10"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold3_seed30.csv",
+    "bytes": 72365,
+    "sha256": "d822f1a1f69140cd1ff2b37568e882b312670287cb115a0af243b7b918947af4"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold3_seed31.csv",
+    "bytes": 74153,
+    "sha256": "1a1320e559ebfb6006e17c178f0e4a120fa4867337fe3c5ad79513c954613399"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold3_seed32.csv",
+    "bytes": 72265,
+    "sha256": "1fc249a7aa16d89d959af66fc2cc3adcf28163d8f3ae3fec6836d7fd831595c9"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold4_seed30.csv",
+    "bytes": 72063,
+    "sha256": "8a7dcf6e980a36944faac48ca70b19affa74e078d3a8514ef4f919341db62c87"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold4_seed31.csv",
+    "bytes": 74940,
+    "sha256": "1c53fb0493b9d147d7715a0eb36da40cf44b859f06ed5104ff6e0b6b29e89de5"
+  },
+  {
+    "path": "derived_results/weibo_full/v2_fold4_seed32.csv",
+    "bytes": 72551,
+    "sha256": "c65218ea697190dff5ed11217eb083142cf34cb657886eac3b373755b2f21cc1"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold0_seed30.csv",
+    "bytes": 75346,
+    "sha256": "7f54a7173a0ab1e01dee5c310fad57e4ad18d53fc1f8b9c148c77eb2a7fe2931"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold0_seed31.csv",
+    "bytes": 75525,
+    "sha256": "36b65b28e0629c4265d8df6e8cdba0ccdca34baa51623b78c8cec07c0c0819e4"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold0_seed32.csv",
+    "bytes": 75602,
+    "sha256": "589eb053297cbb50b9aabf198715a3c4fb33a66c14b3b6c1636b02bda7d9a569"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold1_seed30.csv",
+    "bytes": 76755,
+    "sha256": "60cae2f2af06c28dbcac394a1ed61cb4c3ceb458fc283f451e61d2618d8466af"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold1_seed31.csv",
+    "bytes": 66688,
+    "sha256": "da9b3d2bc3616630a2376b2f2a6f108c2995d06ca5f9e19bd660e148077037ad"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold1_seed32.csv",
+    "bytes": 76594,
+    "sha256": "f562eddcb43a3a05d0a4690d0dd469097b1887d49a1dff0d777330c0f95c9fc1"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold2_seed30.csv",
+    "bytes": 75854,
+    "sha256": "3f19c04d484e2aee368762a71c9b3106ea5b88fc6b4a31aac16ec4545e496d15"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold2_seed31.csv",
+    "bytes": 75735,
+    "sha256": "a8184e436134088d10b60413b70cefa48d4bdee6b60ef75ed8ccfece3dc62de4"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold2_seed32.csv",
+    "bytes": 75713,
+    "sha256": "fedc8125a5bf2e94570605796ebd93ade504f8d24d367f71a1a0cd8ebd71f553"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold3_seed30.csv",
+    "bytes": 75880,
+    "sha256": "68ea6816d80b27dc2902c1ca15d743a40a917449950dc7c6356f39ae986aca62"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold3_seed31.csv",
+    "bytes": 73549,
+    "sha256": "3a9087c32de9b28be2a05243c610a062faa6286d576282d3e97df0fcbac96d0c"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold3_seed32.csv",
+    "bytes": 75564,
+    "sha256": "11b0878f733b58e164b66378dce149be003f6e642a3612546da02d210ade4e9a"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold4_seed30.csv",
+    "bytes": 75010,
+    "sha256": "9d3b845672a3943b3d1aabe2b73afb342332ba90af424052d09b54dac4fe6170"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold4_seed31.csv",
+    "bytes": 66319,
+    "sha256": "35834be98c1211225f7a1e13eccd7779f1e0d298ad7ffd078e0047e9eb0a8b9b"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_ffn_fold4_seed32.csv",
+    "bytes": 73037,
+    "sha256": "83ace77b355df4803f7fe955080a6ed24eeaf76815077ae17ce467fd7f25948e"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold0_seed30.csv",
+    "bytes": 75538,
+    "sha256": "7b42de984780e34e19ba136c65879def9fda31f265221275a7ef2500495bcc5b"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold0_seed31.csv",
+    "bytes": 75594,
+    "sha256": "beccb4291ab9df7646350b1c644142eb38a9d882f2708098cb1b9cc3809c0d59"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold0_seed32.csv",
+    "bytes": 75740,
+    "sha256": "c43afc94e55858e8183a409d38cd4d382f45b1af2c8ce8c5c026b547768f547f"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold1_seed30.csv",
+    "bytes": 76994,
+    "sha256": "5ec1b1088da2a01e0370dfc1f677911ddabf84b6370a86d4698bd3117f2d24b4"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold1_seed31.csv",
+    "bytes": 76691,
+    "sha256": "4ad24c3cc9873325f85e368baab6d3f4cb62cf114f2ae548ee40f769aae9e156"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold1_seed32.csv",
+    "bytes": 74628,
+    "sha256": "4429aaef376b1d3565487cea269037c4df1bee8fbdc5fb79ef2d410808543088"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold2_seed30.csv",
+    "bytes": 75968,
+    "sha256": "ed885f3af3ce8cab6c2c0c545eb8f0f6c0796b322f35cdeb650c797f36740cec"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold2_seed31.csv",
+    "bytes": 75056,
+    "sha256": "bd83fe22a9ea9d5b103c6fb7ae23cc2fd6e0d973af8de117dfee4d88fa6b0456"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold2_seed32.csv",
+    "bytes": 75675,
+    "sha256": "f6dea5bca2fc339bdcbbcd3e7681c2d27a91352f4dc565821fe82db7d2c0d295"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold3_seed30.csv",
+    "bytes": 75328,
+    "sha256": "0723ab1f686e8563d4bb150111ad430d929640224b281ef980b9608c424db2e0"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold3_seed31.csv",
+    "bytes": 74639,
+    "sha256": "ad03ca575ca3e49311e477e2b48a3188a4c1b63d199e0dec2fc338ee06b13e63"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold3_seed32.csv",
+    "bytes": 75850,
+    "sha256": "50afb17aaf8b0776617818d6f98bee070811343ef3301372d69e848504761b21"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold4_seed30.csv",
+    "bytes": 65745,
+    "sha256": "950d1c26a7a4cabd0da260ba12244566cdcc39161eacff842f67d5eca4528ea1"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold4_seed31.csv",
+    "bytes": 75151,
+    "sha256": "723f3427e2a698e040a6dd3087d1e2885b87aad66ce3b70a1a0a203bf64eb246"
+  },
+  {
+    "path": "derived_results/weibo_spectral_ablation/context_fold4_seed32.csv",
+    "bytes": 75133,
+    "sha256": "2dd0d38c5c15c83a7b8bd191c5ee6b361c0bef99b8192c5864274e2e1f040849"
+  },
+  {
+    "path": "environment_versions.json",
+    "bytes": 521,
+    "sha256": "1c67909e5f6ec363de9059595d3d7a97beb8c3ca5fd91d7095f5731ff0b5aa41"
+  },
+  {
+    "path": "figures/README.md",
+    "bytes": 1108,
+    "sha256": "912ab23d79e3c698da5764b14a0eaf517b5f71b4b9ed664dab6cc81bc13ea6e3"
+  },
+  {
+    "path": "figures/audit_panel_alignment.py",
+    "bytes": 39469,
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+  },
+  {
+    "path": "figures/build_figures.py",
+    "bytes": 10168,
+    "sha256": "35b73026d575e5bb88bae709c2396ea43f4cd40a636ccd3f312bb379c73bf5bf"
+  },
+  {
+    "path": "figures/qa/audit_summary.json",
+    "bytes": 2458,
+    "sha256": "ec57becdb416e56f3718a3d3b91c4fc64a57f5955932ec3042d3f7deae997533"
+  },
+  {
+    "path": "figures/qa/export_integrity.json",
+    "bytes": 1138,
+    "sha256": "6e85a601b4d243056cffcb8b8d5632474ec40d8b3feb96cb7c746f0324684be5"
+  },
+  {
+    "path": "figures/qa/fig1_architecture.collision.json",
+    "bytes": 583,
+    "sha256": "e757f088b8f231d9dc3f940ee310bf869cccea096e1edaf103a90ee9121e6486"
+  },
+  {
+    "path": "figures/qa/fig1_architecture.text.json",
+    "bytes": 289,
+    "sha256": "ceae433ce2eceed653f09b0ce250d7f9cf86bcba5cb886bf343fd173529f915c"
+  },
+  {
+    "path": "figures/qa/fig2_band_partition.collision.json",
+    "bytes": 584,
+    "sha256": "7245da4ff8c72a46445fa52798c7fee5408810f483f02e9adfe6c1c7f11d704d"
+  },
+  {
+    "path": "figures/qa/fig2_band_partition.text.json",
+    "bytes": 291,
+    "sha256": "ae8f919ae0fdd54bd7223f2175271cedc844ee35d6f3c17082ed4e527faa2e69"
+  },
+  {
+    "path": "figures/qa/fig3_decisive_ablation.collision.json",
+    "bytes": 587,
+    "sha256": "8a67c32217526031dc8bd7af2ae7057140403aa5d16bdd53803f9f74914d9f43"
+  },
+  {
+    "path": "figures/qa/fig3_decisive_ablation.text.json",
+    "bytes": 293,
+    "sha256": "25b35877ca69a56c4f8d4d912df90c40c6bd72129f42e837c85d820e6d6243d0"
+  },
+  {
+    "path": "figures/qa/fig4_error_overlap.collision.json",
+    "bytes": 581,
+    "sha256": "9438f4294fa0a3d73b50fe139d53c62f46f3da661a89eb0da2689f53dc76b1c8"
+  },
+  {
+    "path": "figures/qa/fig4_error_overlap.text.json",
+    "bytes": 289,
+    "sha256": "30b49e5d4e4b00b1f493c15d04e9b7704c9e891b2610abc97d503c12a47afd9a"
+  },
+  {
+    "path": "figures/qa/fig5_gain_mechanism.collision.json",
+    "bytes": 584,
+    "sha256": "294755edec2c33a74e5a40a38736f01f02ce1692c60fa2eb13c9e0661ff623c9"
+  },
+  {
+    "path": "figures/qa/fig5_gain_mechanism.text.json",
+    "bytes": 290,
+    "sha256": "2d217be09c96c2d269749feeb28d8773475fa6f1b2a9c6662a26d394074a9ade"
+  },
+  {
+    "path": "figures/requirements.txt",
+    "bytes": 42,
+    "sha256": "f278e6e3dc22d450f8bdcfd9903b29925f3ae7851816344609f9056e8509506f"
+  },
+  {
+    "path": "reproduce_group_bootstrap.py",
+    "bytes": 5928,
+    "sha256": "82f6e60c404b11390a7ff59ab40c788f5623f8a069ac4494d51069ff4ef6dfba"
+  },
+  {
+    "path": "source_data/README.md",
+    "bytes": 819,
+    "sha256": "f5b4a7817298a57d5d3e73cdca776f3d6ee232755611389d071dbfa60dc8a925"
+  },
+  {
+    "path": "source_data/figure3_group_bootstrap.csv",
+    "bytes": 159,
+    "sha256": "ab357a3a2641b8710237059ea5e84302e67558d4d588fc2f351c9997b253f251"
+  },
+  {
+    "path": "source_data/figure3_matched_differences.csv",
+    "bytes": 1044,
+    "sha256": "ce1d534e5d369e33b2de210873f97bc0e6c4e7a05d3ff2bdc2f810d18a85604f"
+  },
+  {
+    "path": "source_data/figure4_prediction_overlap.csv",
+    "bytes": 80,
+    "sha256": "eed72d9e4f417ff5ec474c847eb9395a5c1d3f53dbffaf40556f4a93b1c5b22c"
+  },
+  {
+    "path": "source_data/figure5_band_gains.csv",
+    "bytes": 682,
+    "sha256": "2ba4907e1c50025bc5788a3c25428d420d6a062de7e4980bdd9a63916f990bc0"
+  },
+  {
+    "path": "source_data/figure5_baseline_gain_ratio.csv",
+    "bytes": 43,
+    "sha256": "d18ee4930c19def39561e5cae56ae9a6ee20d363b4f9ebd5aeaff6a4d04c0536"
+  },
+  {
+    "path": "source_data/provenance.json",
+    "bytes": 3332,
+    "sha256": "b49dc05fde8a3aa627ab8b906c15d24061ef6afd02d573c9444767a90ae3ec9a"
+  },
+  {
+    "path": "source_data/table1_twitter.csv",
+    "bytes": 191,
+    "sha256": "43734d710f3b6a2a9bcdc1de2e0a593a3c8c3b4ac175284967a9ba97bb075929"
+  },
+  {
+    "path": "source_data/table2_weibo.csv",
+    "bytes": 444,
+    "sha256": "5135f01752cdaec5b38dd49ca01b4de47501e04fa910c2dde56a291524bd7600"
+  },
+  {
+    "path": "source_data/table3_historical_weibo.csv",
+    "bytes": 168,
+    "sha256": "212297b3f97fa1ca256b4b9756a9f4a5f7c20763f883c9548ffea9b594667cf8"
+  },
+  {
+    "path": "verification_environment.json",
+    "bytes": 472,
+    "sha256": "862c1d038b136bb9a387cd3a49a3639a73f408dac02704a7aaa40581dd56ec1c"
+  },
+  {
+    "path": "verify_saved_predictions.py",
+    "bytes": 1514,
+    "sha256": "c056cc2fb923007dc8f868a19d6b420d3f655fda743e968f54a6df7cacdc3bee"
+  }
+]

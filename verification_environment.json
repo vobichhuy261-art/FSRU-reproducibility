@@ -1,0 +1,13 @@
+{
+  "scope": "Portable figure and bootstrap verification only; original training environment is recorded separately",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0",
+    "PyMuPDF": "2.0"
+  },
+  "bootstrap_numeric_match": true,
+  "all_five_collision_audits": "PASS; zero FAIL/WARN",
+  "visual_review": "All five portable previews inspected; contained box labels in architecture are intentional"
+}

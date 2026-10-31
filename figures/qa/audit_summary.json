@@ -1,0 +1,32 @@
+[
+  {
+    "figure": "fig1_architecture",
+    "collision_exit": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: FSRU-main\\essays\\rpw\\repository_release_candidate\\figures\\output\\fig1_architecture.pdf\npages: 1\nvisible text boxes: 21\nstroke paths: 25\n\n\nsummary: 0 fail, 0 warn, 18 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review",
+    "error": ""
+  },
+  {
+    "figure": "fig2_band_partition",
+    "collision_exit": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: FSRU-main\\essays\\rpw\\repository_release_candidate\\figures\\output\\fig2_band_partition.pdf\npages: 1\nvisible text boxes: 18\nstroke paths: 62\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review",
+    "error": ""
+  },
+  {
+    "figure": "fig3_decisive_ablation",
+    "collision_exit": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: FSRU-main\\essays\\rpw\\repository_release_candidate\\figures\\output\\fig3_decisive_ablation.pdf\npages: 1\nvisible text boxes: 12\nstroke paths: 32\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review",
+    "error": ""
+  },
+  {
+    "figure": "fig4_error_overlap",
+    "collision_exit": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: FSRU-main\\essays\\rpw\\repository_release_candidate\\figures\\output\\fig4_error_overlap.pdf\npages: 1\nvisible text boxes: 14\nstroke paths: 2\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review",
+    "error": ""
+  },
+  {
+    "figure": "fig5_gain_mechanism",
+    "collision_exit": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: FSRU-main\\essays\\rpw\\repository_release_candidate\\figures\\output\\fig5_gain_mechanism.pdf\npages: 1\nvisible text boxes: 20\nstroke paths: 89\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review",
+    "error": ""
+  }
+]

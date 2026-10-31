@@ -1,0 +1,5 @@
+﻿comparison,model,trainable_parameters_million,run_mean_macro_f1,run_sd_macro_f1
+text representation,word-vector FSRU-2D,2.47,0.8426900743365565,0.008066648858374659
+text representation,frozen contextual-text FSRU-2D,1.42,0.9342784419450905,0.006146998052936049
+spectral block,contextual spectral model,1.42,0.9350402142261863,0.0060403349485853765
+spectral block,contextual residual control,2.11,0.9319557258579795,0.004882828724185818

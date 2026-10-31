@@ -1,0 +1,86 @@
+{
+  "table1_twitter.csv": [
+    {
+      "path_from_project_root": "result/ensemble_twitter_baseline_train.log",
+      "sha256": "f7a5846094f9053592215849da65c7ae4de12c828bf63fdf5642cf4cb070d443"
+    },
+    {
+      "path_from_project_root": "result/ensemble_twitter_baseline_gimg_train.log",
+      "sha256": "d634ef63846a71841b981d7cdfbe7db7a1703e1b85b54f835c8754b3129bce26"
+    },
+    {
+      "path_from_project_root": "result/ensemble_twitter_dedup_baseline_train.log",
+      "sha256": "b4095c4054e4a14905338b33e40ec49aeeb92487929a4370c873b8cdfd8395cd"
+    },
+    {
+      "path_from_project_root": "result/twitter_split_by_image.npy",
+      "sha256": "85dc4e6ac93749c542d0ced29e9f21e248e3fe20801cca5d66b7d527c4fd6e5e"
+    },
+    {
+      "path_from_project_root": "result/twitter_split_dedup_by_image.npy",
+      "sha256": "29e195218e298f7b2d2360eb3ad5bb3407ea18ce1bb7ee87b712a578d6116a45"
+    }
+  ],
+  "table2_weibo.csv": [
+    {
+      "path_from_project_root": "result/spectrum_stage3/weibo_full/analysis.json",
+      "sha256": "8580d8bee01be3273e49c3309c9f0c4de61889dd606389987d13f72583228ac8"
+    },
+    {
+      "path_from_project_root": "result/spectrum_stage3/weibo_spectral_ablation/analysis.json",
+      "sha256": "4d999bdeb1c282d935294cf48b964a13d7b076959d5857a0abef9aae54e8268c"
+    },
+    {
+      "path_from_project_root": "result/spectrum_stage3/weibo_spectral_ablation/report.json",
+      "sha256": "7eabda7c4d2e43d3ca4cdd2b0d0724a772ad6679565a33c063b38341ccba26f4"
+    }
+  ],
+  "figure3_matched_differences.csv": [
+    {
+      "path_from_project_root": "result/spectrum_stage3/weibo_spectral_ablation/report.json",
+      "sha256": "7eabda7c4d2e43d3ca4cdd2b0d0724a772ad6679565a33c063b38341ccba26f4"
+    }
+  ],
+  "figure3_group_bootstrap.csv": [
+    {
+      "path_from_project_root": "result/spectrum_stage3/weibo_spectral_ablation/analysis.json",
+      "sha256": "4d999bdeb1c282d935294cf48b964a13d7b076959d5857a0abef9aae54e8268c"
+    }
+  ],
+  "table3_historical_weibo.csv": [
+    {
+      "path_from_project_root": "result/ensemble_baseline_train.log",
+      "sha256": "91ec8e2d123204ad625b300f1b4f59ba11bda6c287a9254c84cb1396728a431c"
+    },
+    {
+      "path_from_project_root": "result/eval_weibo_b2_5seed.log",
+      "sha256": "278a10e33ccf2c804e3d7e922682cf3b91115a8a94348f68d3cb399f488558b7"
+    },
+    {
+      "path_from_project_root": "result/multiscale_weibo_report.txt",
+      "sha256": "3ed49ddb9584c15e0d0c9af421489e37c0f72f9aa79348904fcac542caf2ddd2"
+    },
+    {
+      "path_from_project_root": "result/e28_headline.txt",
+      "sha256": "09b1fff6aabb67090a3367fee5b2c0c6db45f16da84c4db39b95bf122a70dc06"
+    }
+  ],
+  "figure4_prediction_overlap.csv": [
+    {
+      "path_from_project_root": "result/complement_analysis.txt",
+      "sha256": "860de298298428c6bad7b6be466f7d469079f373902f8ad5f1a7005b9c3f2415"
+    }
+  ],
+  "figure5_band_gains.csv": [
+    {
+      "path_from_project_root": "result/band_gain_analysis.txt",
+      "sha256": "41c4ebde2233b8c0c2f669f6305cc44602fec13b4999ee4198bf65bd076fb937"
+    }
+  ],
+  "figure5_baseline_gain_ratio.csv": [
+    {
+      "path_from_project_root": "result/band_gain_analysis.txt",
+      "sha256": "41c4ebde2233b8c0c2f669f6305cc44602fec13b4999ee4198bf65bd076fb937"
+    }
+  ]
+}

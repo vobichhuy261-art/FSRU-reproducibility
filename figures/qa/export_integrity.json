@@ -1,0 +1,67 @@
+[
+  {
+    "figure": "fig1_architecture",
+    "min_span_font_pt": 7.5,
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ],
+    "tiff_pixels": [
+      4308,
+      1560
+    ],
+    "alignment_verdict": "NOT APPLICABLE"
+  },
+  {
+    "figure": "fig2_band_partition",
+    "min_span_font_pt": 7.5,
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ],
+    "tiff_pixels": [
+      2100,
+      1740
+    ],
+    "alignment_verdict": "PASS"
+  },
+  {
+    "figure": "fig3_decisive_ablation",
+    "min_span_font_pt": 8.0,
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ],
+    "tiff_pixels": [
+      2100,
+      1650
+    ],
+    "alignment_verdict": "NOT APPLICABLE"
+  },
+  {
+    "figure": "fig4_error_overlap",
+    "min_span_font_pt": 8.0,
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ],
+    "tiff_pixels": [
+      2100,
+      1620
+    ],
+    "alignment_verdict": "NOT APPLICABLE"
+  },
+  {
+    "figure": "fig5_gain_mechanism",
+    "min_span_font_pt": 7.5,
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ],
+    "tiff_pixels": [
+      4308,
+      1650
+    ],
+    "alignment_verdict": "PASS"
+  }
+]

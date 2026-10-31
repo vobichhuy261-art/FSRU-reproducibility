@@ -1,0 +1,5 @@
+﻿model_or_ensemble,seeds_per_fold,macro_f1
+FSRU,3,0.9057
+FSRU-2D B=2,5,0.908
+uniform FSRU+B=2+B=4,3-5,0.9168
+selected CLIP layer-6 + CLIP-based FSRU-2D,3,0.9268
