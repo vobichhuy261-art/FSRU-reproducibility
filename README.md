@@ -2,6 +2,8 @@
 
 Companion materials for the manuscript by Youquan Zheng and Yue Wu, Xihua University.
 
+**Evaluation correction (2026-10-31): read [CORRECTIONS.md](CORRECTIONS.md) before interpreting scores or historical figures. Strict isolation is not established; metric reproduction does not validate the partitions.**
+
 ## Scope
 
 This package contains aggregate figure/table source data, anonymous Weibo fold assignments and saved prediction probabilities, independent metric and group-bootstrap verification programs, and portable sources for all five manuscript figures. It supports checking reported evaluation metrics, uncertainty intervals and figure construction. Model-training reproduction still requires the experiment implementation, authorized source datasets, pretrained encoders and recorded configurations.

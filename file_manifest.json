@@ -10,9 +10,14 @@
     "sha256": "eeea36e4f7f63eaf37bb1f2a6821eb5634972e1a24f3b8fb72c575984b1e326d"
   },
   {
+    "path": "CORRECTIONS.md",
+    "bytes": 2212,
+    "sha256": "0f85a70e98ed68d22e26a6fce82e4ef587c583dc9e05812d6bdf4471dad8d64d"
+  },
+  {
     "path": "README.md",
-    "bytes": 2996,
-    "sha256": "3ad9651cd1486649374a8801f869f43139d9b720c6e4b4766115b654a4f1fc16"
+    "bytes": 3218,
+    "sha256": "0814ea6f3da1e38c737f04a9a82d93f33caca95d457c4db7c91703b6295e6fb9"
   },
   {
     "path": "REPRODUCTION_SCOPE.md",
@@ -466,8 +471,8 @@
   },
   {
     "path": "source_data/table1_twitter.csv",
-    "bytes": 191,
-    "sha256": "43734d710f3b6a2a9bcdc1de2e0a593a3c8c3b4ac175284967a9ba97bb075929"
+    "bytes": 225,
+    "sha256": "f549f2bc86b8ee63f523fa5bd5ffa12d02b9725c1e76804fd8ce2c7a88f1a9c5"
   },
   {
     "path": "source_data/table2_weibo.csv",

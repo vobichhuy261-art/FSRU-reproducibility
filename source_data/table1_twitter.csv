@@ -1,4 +1,4 @@
-﻿partition,posts,distinct_images,fsru_macro_f1
+锘縫artition,posts,distinct_images,fsru_macro_f1
 random five folds,13568,377,0.997
-image-grouped five folds,13568,377,0.8378
-exact-text deduplication plus image grouping,10203,368,0.8326
+group-intended permutation with fixed slices,13568,377,0.8378
+exact-text deduplication plus group-intended permutation,10203,368,0.8326
