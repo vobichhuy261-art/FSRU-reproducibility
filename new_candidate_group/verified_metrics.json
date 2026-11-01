@@ -12,7 +12,8 @@
           0.9761194267009883
         ],
         "unweighted_fold_mean": 0.8803401586865889,
-        "pooled_oof_macro_f1": 0.8880606993551967
+        "pooled_oof_macro_f1": 0.8880606993551967,
+        "parameters": 1419554
       }
     ],
     "context_ffn": [
@@ -26,9 +27,25 @@
           0.9184239522778221
         ],
         "unweighted_fold_mean": 0.8791221884782627,
-        "pooled_oof_macro_f1": 0.8850314927423715
+        "pooled_oof_macro_f1": 0.8850314927423715,
+        "parameters": 2107138
+      }
+    ],
+    "context_ffn_match": [
+      {
+        "seed": 30,
+        "fold_macro_f1": [
+          0.9269903509783568,
+          0.7874974531100054,
+          0.9544356120545151,
+          0.9075052931943802,
+          0.8863296832810417
+        ],
+        "unweighted_fold_mean": 0.8925516785236599,
+        "pooled_oof_macro_f1": 0.9022994887282465,
+        "parameters": 1419718
       }
     ]
   },
-  "interpretation": "Post-audit exploratory candidate-group sensitivity; single-seed results have no across-seed uncertainty. New partitions prevent a paired causal comparison to old scores."
+  "interpretation": "Post-audit exploratory candidate-group sensitivity. Three models: spectral fusion (context), a larger residual control (context_ffn, 2.11 M parameters) and a parameter-matched residual control (context_ffn_match, 1.42 M parameters; hidden width 354 versus 1,024). Single-seed results have no across-seed uncertainty. New partitions prevent a paired causal comparison to old scores."
 }

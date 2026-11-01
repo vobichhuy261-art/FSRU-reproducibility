@@ -1,0 +1,55 @@
+{
+  "rows": 10203,
+  "groups": 355,
+  "model_a": "context",
+  "model_b": "context_ffn",
+  "runs_dir": "not redistributed; replay from the anonymous prediction CSVs in this folder",
+  "manifest_sha256": "90960434bfa024dbb7fc978af74681a5cf3d4451cf8bb6833e102a81224851ba",
+  "pooled_oof_macro_f1": {
+    "context": 0.8880606993551967,
+    "context_ffn": 0.8850314927423715
+  },
+  "pooled_delta_a_minus_b": 0.0030292066128252415,
+  "fold_pairs": [
+    {
+      "fold": 0,
+      "context": 0.9145658046382805,
+      "context_ffn": 0.9366437153588354,
+      "delta_a_minus_b": -0.022077910720554872
+    },
+    {
+      "fold": 1,
+      "context": 0.6488691452042237,
+      "context_ffn": 0.7605189772015792,
+      "delta_a_minus_b": -0.11164983199735556
+    },
+    {
+      "fold": 2,
+      "context": 0.9292790776021385,
+      "context_ffn": 0.8513588463671659,
+      "delta_a_minus_b": 0.0779202312349726
+    },
+    {
+      "fold": 3,
+      "context": 0.9328673392873131,
+      "context_ffn": 0.9286654511859113,
+      "delta_a_minus_b": 0.004201888101401874
+    },
+    {
+      "fold": 4,
+      "context": 0.9761194267009883,
+      "context_ffn": 0.9184239522778221,
+      "delta_a_minus_b": 0.05769547442316614
+    }
+  ],
+  "fold_mean_a_minus_b": 0.0012179702083260358,
+  "paired_component_bootstrap_95_percentile": [
+    -0.04590202020402172,
+    0.05653528661853046
+  ],
+  "paired_component_bootstrap_mean": 0.0033498745864516876,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261031,
+  "method": "Candidate components resampled with replacement (same rows for both models per draw); macro-F1 difference per draw; mirror of VERITE paired component bootstrap. Descriptive interval for the single-seed experiment; no significance claim.",
+  "caveats": "Single seed (30); five folds were inspected during development (exploratory status); bootstrap conditions on the saved predictions and does not re-train models."
+}

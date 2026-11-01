@@ -1,0 +1,56 @@
+{
+  "rows": 10203,
+  "groups": 355,
+  "model_a": "context",
+  "model_b": "context_ffn_match",
+  "runs_dir_a": "not redistributed; replay from the anonymous prediction CSVs in this folder",
+  "runs_dir_b": "not redistributed; replay from the anonymous prediction CSVs in this folder",
+  "manifest_sha256": "90960434bfa024dbb7fc978af74681a5cf3d4451cf8bb6833e102a81224851ba",
+  "pooled_oof_macro_f1": {
+    "context": 0.8880606993551967,
+    "context_ffn_match": 0.9022994887282465
+  },
+  "pooled_delta_a_minus_b": -0.014238789373049787,
+  "fold_pairs": [
+    {
+      "fold": 0,
+      "context": 0.9145658046382805,
+      "context_ffn_match": 0.9269903509783568,
+      "delta_a_minus_b": -0.012424546340076281
+    },
+    {
+      "fold": 1,
+      "context": 0.6488691452042237,
+      "context_ffn_match": 0.7874974531100054,
+      "delta_a_minus_b": -0.13862830790578173
+    },
+    {
+      "fold": 2,
+      "context": 0.9292790776021385,
+      "context_ffn_match": 0.9544356120545151,
+      "delta_a_minus_b": -0.025156534452376644
+    },
+    {
+      "fold": 3,
+      "context": 0.9328673392873131,
+      "context_ffn_match": 0.9075052931943802,
+      "delta_a_minus_b": 0.02536204609293291
+    },
+    {
+      "fold": 4,
+      "context": 0.9761194267009883,
+      "context_ffn_match": 0.8863296832810417,
+      "delta_a_minus_b": 0.08978974341994661
+    }
+  ],
+  "fold_mean_a_minus_b": -0.012211519837071028,
+  "paired_component_bootstrap_95_percentile": [
+    -0.06246464972861078,
+    0.03009439252818452
+  ],
+  "paired_component_bootstrap_mean": -0.014693298184775865,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261031,
+  "method": "Candidate components resampled with replacement (same rows for both models per draw); macro-F1 difference per draw; mirror of VERITE paired component bootstrap. Descriptive interval for the single-seed experiment; no significance claim.",
+  "caveats": "Single seed (30); five folds were inspected during development (exploratory status); bootstrap conditions on the saved predictions and does not re-train models."
+}

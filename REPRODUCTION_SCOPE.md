@@ -9,6 +9,7 @@
 | Figures 1–2 architecture and index-band construction | Explicit Python construction | figures/build_figures.py | The index-radius partition must not be interpreted as physically symmetric frequency rings |
 | Figure 4 historical error overlap | Four aggregate counts | figures/build_figures.py; total count assertion | Historical model predictions not included |
 | Figure 5 historical gain profiles | 15 paired gain summaries and baseline mean/SD | figures/build_figures.py | Checkpoints and channel-level gains not included |
+| Candidate-group Twitter sensitivity (Table 4, Table 5, Figure 4) | 10,203 anonymous predictions for spectral, larger-residual and parameter-matched residual models; 2,000-draw paired bootstraps | new_candidate_group/verify_predictions.py | Single seed; five outer folds inspected during development; training implementation not bundled |
 | Table 3 selected historical ensembles | Four aggregate rows and source hashes | Inspect source_data/table3_historical_weibo.csv | Development estimates; not an independently selected test comparison |
 
 ## Upstream and implementation access

@@ -6,7 +6,7 @@ Companion materials for the manuscript by Youquan Zheng and Yue Wu, Xihua Univer
 
 ## Completed candidate-group sensitivity experiment
 
-New five-fold Twitter predictions, verification code, protocol reports and two vector figures are in [new_candidate_group/](new_candidate_group/README.md). All 10,203 anonymous predictions per model have been verified. This is a single-seed exploratory comparison, not independent confirmation.
+New five-fold Twitter predictions for spectral fusion, a larger residual control and a parameter-matched residual control, paired component bootstraps, verification code, protocol reports and two vector figures are in [new_candidate_group/](new_candidate_group/README.md). All 10,203 anonymous predictions per model have been verified. This is a single-seed exploratory comparison, not independent confirmation.
 
 ## Scope
 
@@ -39,6 +39,7 @@ of 1e-10. See REPRODUCTION_SCOPE.md for the boundary of these checks.
 - verify_saved_predictions.py: independent metric recalculation.
 - reproduce_group_bootstrap.py: independent paired uncertainty recalculation.
 - figures/: portable plotting sources and a render-time alignment utility.
+- new_candidate_group/: anonymous candidate-group predictions (spectral, larger residual, parameter-matched residual), paired component bootstraps, protocol reports and two vector figures.
 - environment_versions.json: the observed project environment, not an installation lock file.
 
 ## Upstream implementation
