@@ -1,3 +1,13 @@
+# FSRU spectral-gate verification materials
+
+## Current manuscript package — November 12, 2026
+
+The current manuscript examines spectral-gate numerical degeneration, fixed-gate interventions, constant-gate training and four-band direction-specific effects. **Use [submission_20261112/](submission_20261112/README.md) for the current source-data attachment and Figures 1–8 / S1–S6.** It includes anonymous numeric evidence, protocols, verification scripts and file hashes. Raw datasets and inherited training implementation are not redistributed; this is saved-result verification rather than complete training reproduction.
+
+The sections below document the historical package and its evaluation corrections. Their figure numbering and experiment coverage refer to the earlier manuscript.
+
+---
+
 # FSRU evaluation and manuscript reproduction materials
 
 Companion materials for the manuscript by Youquan Zheng and Yue Wu, Xihua University.

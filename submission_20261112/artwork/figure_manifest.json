@@ -1,0 +1,194 @@
+[
+  {
+    "number": "1",
+    "file": "Figure_1.pdf",
+    "source": "figures/fig1_partition_boundary.pdf",
+    "sha256": "8017e2806e8c1e51c62ca803d6b8735b17595f2d3c7f8be6bf84cde7b38fa117",
+    "matched_word_png_sha256": "0e8945d29c58478a8f09350a42e51ef91a28845a817f132eded6ebf4fbd02f46",
+    "embedded_fonts": [
+      "/EXXLBR+ArialMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. 1. Fixed-boundary replay of historical Twitter permutations. Panels show (a) image IDs spanning consumed folds and (b) posts belonging to those IDs. Full and text-deduplicated corpora contain 13,568 and 10,203 posts, respectively. Both replays move nine rows relative to producer blocks. Counts describe assignment properties, not changes in prediction accuracy."
+  },
+  {
+    "number": "2",
+    "file": "Figure_2.pdf",
+    "source": "figures/mechanism_architecture.pdf",
+    "sha256": "7e2e7479de105f2f5f2e5566eea44ace8b94ddfb8652dd10ba4ebdc801a36d8b",
+    "matched_word_png_sha256": "3cc0fbf897376dffb45ea1e287666a9bbfe6f3508d9b8dffdddd5a0105733059",
+    "embedded_fonts": [
+      "/HIQOUK+ArialMT",
+      "/HIQOUK+Arial-BoldMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. 2. Implemented controlled architecture. Frozen text tokens/input embeddings and CLIP patches enter separate projections and alternative spectral or residual blocks, followed by max pooling, projection, addition and classification. The expanded spectral block shows the complex-square text filter, image complex gains and sequential text-to-image then image-to-text gates. The latter is nearly static in the examined checkpoints; the remaining spectral operations still depend on inputs. Weights are not tied across models."
+  },
+  {
+    "number": "3",
+    "file": "Figure_3.pdf",
+    "source": "figures/fig3_band_partition.pdf",
+    "sha256": "82330b4dfa9b0c24e033f22af418cbd6971954c849dcb78cfb738f0e67144b55",
+    "matched_word_png_sha256": "789f6c57f8571cba33c1db92b303770439043296fde70c754fccbbc5abfa9c95",
+    "embedded_fonts": [
+      "/HIQOUK+ArialMT",
+      "/HIQOUK+Arial-BoldMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": "FSRU-main/essays/rpw/figures_sci/build_all_figures.py",
+    "caption": "Fig. 3. Implemented band assignments on the unshifted 14 × 8 real-transform output for B = 2 and B = 4. Colors indicate band indices; the orange point denotes the direct-current component. The assignment is based on array indices and is not rotation invariant."
+  },
+  {
+    "number": "4",
+    "file": "Figure_4.pdf",
+    "source": "figures/fig4_twitter_candidate_groups.pdf",
+    "sha256": "bec4e6c438559bd2e42cf6d63d87a4d2ce1ee017384d7c5226b3238fd6334ce2",
+    "matched_word_png_sha256": "b79f552c6244fc2c4c6bbdb8996990b4f7eebcae85cef178a2cd384a338b6e9a",
+    "embedded_fonts": [
+      "/FLDWWB+ArialMT",
+      "/CECFXM+ArialMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. 4. Initial seed-30 candidate-group diagnostic. (a) Lines connect the same outer fold across the spectral, larger-residual and nominal-count-residual models. (b) Paired fold differences in percentage points. All five folds are included; no uncertainty intervals are plotted. Table 4 reports the three-seed summary, Table S6 retains these fold values and Fig. S3 shows paired seed variation. Components are disjoint across inner training, validation and outer test under the operational candidate-union rule."
+  },
+  {
+    "number": "5",
+    "file": "Figure_5.pdf",
+    "source": "figures/mechanism_gate_diagnostics.pdf",
+    "sha256": "4cef19f8b5139bbeb240140862be69b914884ae0c0c923858deae57dc4b84f5e",
+    "matched_word_png_sha256": "baad6a08853819fc942cacbf1b22b8c6fb5bea3b6163004580c019c40169e7fd",
+    "embedded_fonts": [
+      "/BJOCRZ+ArialMT",
+      "/BMGKBD+ArialMT",
+      "/MWOAYY+Arial-BoldMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. 5. Gate diagnostics for five fixed seed-30 checkpoints. Left: the larger within-band gate SD, shown by fold for OOF and VERITE. Image-to-text GPU float32 outputs are constant. Right: macro-F1 effects of joint source-mean/donor substitution relative to dynamic gates, with conditional 95% component-bootstrap intervals from 2,000 shared draws. Intervals omit retraining uncertainty."
+  },
+  {
+    "number": "6",
+    "file": "Figure_6.pdf",
+    "source": "figures/mechanism_verite_pairs.pdf",
+    "sha256": "30d638b597fbf6c7ad6c16d38e15d2a0e7451d8a3ebd60283edf23e31861c274",
+    "matched_word_png_sha256": "f3f6e1da02b93f3c3966a7a7a74bf1acd47c96e892d7b21ee079a49e86a28ca5",
+    "embedded_fonts": [
+      "/DNRWIN+ArialMT",
+      "/BHPUCF+Arial-BoldMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. 6. Within-article comparisons of frozen VERITE ensembles. Each point plots misinformation scores for a true instance (x) and its false counterpart (y); points above the diagonal are correctly ordered. Columns show same-image caption changes (337 comparisons) and same-caption image changes (324); rows show spectral and residual systems. Dashed lines mark the fixed 0.5 decision boundary. The two relation sets share true instances and are not 661 independent samples."
+  },
+  {
+    "number": "7",
+    "file": "Figure_7.pdf",
+    "source": "figures/training_boundary_contrasts.pdf",
+    "sha256": "593bd4a7dc070f39ecbef9a6a2f88abe02f9cdd85d903caa056a7c14d517c51f",
+    "matched_word_png_sha256": "6d64702f912311f1fb0ec2fb62ce0ee5ba276a6e20ba16f6c5d7a39962b05951",
+    "embedded_fonts": [
+      "/BMQQDV+DejaVuSans"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. 7. Training and fixed-weight inference contrasts. Each difference uses its own dynamic reference; seed counts are labeled. Points and bars are pooled-OOF macro-F1 differences and conditional 95% component intervals. The inference comparisons in this figure replace the image-to-text gate."
+  },
+  {
+    "number": "8",
+    "file": "Figure_8.pdf",
+    "source": "figures/direction_evidence.pdf",
+    "sha256": "472c5fba377820062a7f9ae5b6f99382488ac206374ec9a1a5ea2e2f7314c2b0",
+    "matched_word_png_sha256": "bebbce4205198f867886a3d4161d5ed90a6e3d43f277ce06466f3f2cfe79d999",
+    "embedded_fonts": [
+      "/BMQQDV+DejaVuSans"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. 8. Direction-specific gate evidence. The upper schematic separates numerical, fixed-weight and training-time questions. Lower panels show four-band training-mean interventions across seeds 30–32. Error transitions count repeated-seed decisions. Bars are pointwise 95% component-bootstrap intervals conditional on fitted models, with 2,000 paired draws. Panels use different horizontal scales."
+  },
+  {
+    "number": "S1",
+    "file": "Figure_S1.pdf",
+    "source": "figures/figS1_error_overlap.pdf",
+    "sha256": "44b9718cae622253038576bff22d82da97878314747fe6b2ba5ec60926c7b04a",
+    "matched_word_png_sha256": "a78ab90b05a35e2dfc34941e49cd993b2a1f1bdb579d031cf30d8a54f638b02d",
+    "embedded_fonts": [
+      "/HIQOUK+ArialMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": "FSRU-main/essays/rpw/figures_sci/build_all_figures.py",
+    "caption": "Fig. S1. Prediction-correctness overlap for the historical FSRU and FSRU-2D ensembles on 7,723 Weibo samples. Both models were correct on 6,738 samples and wrong on 462; one model alone was correct on 257 or 266 samples. The plot describes disagreement and does not establish independent errors."
+  },
+  {
+    "number": "S2",
+    "file": "Figure_S2.pdf",
+    "source": "figures/figS2_gain_profiles.pdf",
+    "sha256": "71d48c2591b71323c15ad514e10220b20bcec04dd47681b4ebed53e63e9a2b8e",
+    "matched_word_png_sha256": "5d87932b0c14878f2a4e6ac75ac31550b3075cec1b8f64f4e129e784310c99a2",
+    "embedded_fonts": [
+      "/HIQOUK+ArialMT",
+      "/HIQOUK+Arial-BoldMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. S2. Descriptive gain analysis across 15 historical FSRU-2D checkpoints. Panel a pairs low- and high-band mean complex-gain magnitudes within each model. Panel b shows each model's high-to-low ratio and the mean ± standard deviation of the corresponding effective-amplitude ratio from 15 historical FSRU models (0.994 ± 0.009). Parameter patterns alone do not identify a performance mechanism."
+  },
+  {
+    "number": "S3",
+    "file": "Figure_S3.pdf",
+    "source": "figures/supplementary_seed_robustness.pdf",
+    "sha256": "bf167f6587a8f476b83854269b9e472e58e69b5defff18c966f335a7c460581c",
+    "matched_word_png_sha256": "808f3d760d0680c561fde49093b5e2a6b7291d4f639c81ad9718a70866086f0e",
+    "embedded_fonts": [
+      "/BMIZDB+ArialMT",
+      "/CECFXM+ArialMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. S3. Paired spectral-minus-residual differences in five-fold mean macro F1, in percentage points, at seeds 30, 31 and 32. Black diamonds and whiskers are the mean and sample SD of the three paired seed differences, not confidence intervals. Partitions are fixed and development-exposed."
+  },
+  {
+    "number": "S4",
+    "file": "Figure_S4.pdf",
+    "source": "figures/supplementary_geometry_sharing_contrasts.pdf",
+    "sha256": "d1f2c60336ec916cd86af475c458194564df2de085a2c12571fb35947b4987bb",
+    "matched_word_png_sha256": "50a7f57e6abd12dd4e719c14c83bbd426447d693553e365d431700f5225c1a7f",
+    "embedded_fonts": [
+      "/GYOLIE+ArialMT",
+      "/CECFXM+ArialMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. S4. Pooled-OOF macro-F1 contrasts and descriptive 95% percentile intervals from 10,000 paired resamples of 355 candidate components, seed 30. All geometry controls use two gate bands; per-bin gains add parameters. Geometry changes frequency supports and band populations. The connected-count residual approximately matches tensor-element counts, not function capacity. Units are percentage points."
+  },
+  {
+    "number": "S5",
+    "file": "Figure_S5.pdf",
+    "source": "figures/supplementary_structural_multiseed.pdf",
+    "sha256": "bcb1c643f2e14421a4a686cb4bdcb805f9b1f564faa01c66e9ed3aa9cf1258fd",
+    "matched_word_png_sha256": "edc094d3cd280bedab0d846688e9072f302990bab4fd1f35b2afaf84da3a8350",
+    "embedded_fonts": [
+      "/ECFCCO+DejaVuSans",
+      "/BGTXBF+DejaVuSans"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. S5. Mean seed-specific pooled-OOF macro-F1 contrasts and conditional 95% percentile intervals, in percentage points. The same component multiplicities are used for all three fixed seeds and models. Whiskers do not include retraining uncertainty. Shared/per-bin controls differ in parameter freedom and 1D/2D supports differ in frequency geometry."
+  },
+  {
+    "number": "S6",
+    "file": "Figure_S6.pdf",
+    "source": "figures/fig5_weibo_ablation.pdf",
+    "sha256": "26a7d787669ae7ee210bc9e6fac9da34918031b4f3b7ba9059c862ddd3c4b510",
+    "matched_word_png_sha256": "2e57b16329348eb7e396d95ae602460d929b0b36f968c3168e504555cb1eabe1",
+    "embedded_fonts": [
+      "/HIQOUK+ArialMT"
+    ],
+    "raster_images": 0,
+    "vector_cell_source": null,
+    "caption": "Fig. S6. Historical exact-content-group spectral-minus-residual comparison. The diamond and line give the original mean bootstrap draw-level difference and 95% percentile interval, +0.302 [−0.012, +0.630] percentage points; the mean differs from subtraction of run means in Table S17. Resampling used 7,472 original exact-content/text groups on development-exposed folds, not the new candidate-component factorial."
+  }
+]
